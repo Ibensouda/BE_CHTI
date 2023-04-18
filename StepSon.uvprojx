@@ -357,7 +357,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\Driver</IncludePath>
             </VariousControls>
           </Aads>
           <LDads>
@@ -391,16 +391,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Sys</GroupName>
-          <Files>
-            <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>Driver</GroupName>
           <Files>
             <File>
@@ -426,6 +416,16 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
@@ -434,7 +434,7 @@
       <TargetName>CibleSondeKEIL</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060750::V5.06 update 6 (build 750)::.\ARMCC</pCCUsed>
+      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -781,7 +781,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\Driver</IncludePath>
             </VariousControls>
           </Aads>
           <LDads>
@@ -815,16 +815,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Sys</GroupName>
-          <Files>
-            <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>Driver</GroupName>
           <Files>
             <File>
@@ -846,6 +836,16 @@
               <FileName>bruitverre.asm</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\bruitverre.asm</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -1308,16 +1308,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Sys</GroupName>
-          <Files>
-            <File>
-              <FileName>startup-rvds.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\startup-rvds.s</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>Driver</GroupName>
           <Files>
             <File>
@@ -1339,6 +1329,16 @@
               <FileName>bruitverre.asm</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\bruitverre.asm</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>startup-rvds.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\startup-rvds.s</FilePath>
             </File>
           </Files>
         </Group>
